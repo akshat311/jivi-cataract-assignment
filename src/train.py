@@ -25,7 +25,7 @@ transform_test = transforms.Compose([
 
 if __name__ == '__main__':
     
-    train_dataset = CataractDataset(train_image_paths, train_labels, transform=transform_test)
+    train_dataset = CataractDataset(train_image_paths, train_labels, transform=transform_train)
     test_dataset = CataractDataset(test_image_paths, test_labels, transform=transform_test)
 
     dataloaders = {
