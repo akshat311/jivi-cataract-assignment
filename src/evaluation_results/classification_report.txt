@@ -1,0 +1,9 @@
+Classification Report
+              precision    recall  f1-score   support
+
+      Normal       0.97      1.00      0.98        60
+    Cataract       1.00      0.97      0.98        61
+
+    accuracy                           0.98       121
+   macro avg       0.98      0.98      0.98       121
+weighted avg       0.98      0.98      0.98       121

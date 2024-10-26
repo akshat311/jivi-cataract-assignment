@@ -15,6 +15,7 @@ class CataractClassificationModel(nn.Module):
         self.encoder.heads = nn.Sequential(
             nn.Linear(self.encoder.heads.head.in_features, 512),
             nn.ReLU(),
+            # nn.Dropout(0.2),
             nn.Linear(512, num_classes),
             nn.Sigmoid()  # Sigmoid for binary classification
         )
