@@ -9,7 +9,7 @@ Clone the Repository:
 
 ```bash
 git clone <repository-url>
-cd src
+cd ./src
 ```
 Set Up a Virtual Environment (recommended):
 
@@ -20,7 +20,7 @@ source env/bin/activate
 Install Required Dependencies: Install the required Python libraries from requirements.txt:
 
 ```bash
-pip install -r requirements.txt
+pip install -r ../requirements.txt
 ```
 Install Poppler for PDF Support (required by pdf2image):
 
