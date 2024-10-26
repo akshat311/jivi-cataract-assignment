@@ -15,7 +15,7 @@ Set Up a Virtual Environment (recommended):
 
 ```bash
 python3 -m venv env
-source env/bin/activate  # On Windows, use `env\Scripts\activate`
+source env/bin/activate
 ```
 Install Required Dependencies: Install the required Python libraries from requirements.txt:
 
