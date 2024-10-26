@@ -9,7 +9,7 @@ Clone the Repository:
 
 ```bash
 git clone <repository-url>
-cd cataract_classification
+cd src
 ```
 Set Up a Virtual Environment (recommended):
 
